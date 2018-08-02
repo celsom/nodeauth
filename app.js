@@ -19,6 +19,10 @@ var mongo = require('mongodb');
 var mongoose = require('mongoose');
 var db = mongoose.connection;
 
+var nodemailer = require('nodemailer');
+var async = require('async');
+var crypto =require('crypto');
+
 
 
 

@@ -23,7 +23,9 @@ var UserSchema = mongoose.Schema({
 
 	profileimage:{
 		type: String
-	}
+	},
+	resetPasswordToken: String,
+	resetPasswordExpires: Date
 });
 
 var User = module.exports = mongoose.model('User',UserSchema);
@@ -54,3 +56,4 @@ module.exports.createUser = function(newUser, callback){
 	});
 	
 }
+
