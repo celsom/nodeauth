@@ -3,8 +3,13 @@ a login and registration system
 
 intructions
 
-npm install
+npm install &&&&&
+
+
 start your mongo db
+
+
+npm start to run the app
 
 in nodeauth/routes/user.js change the details
 
